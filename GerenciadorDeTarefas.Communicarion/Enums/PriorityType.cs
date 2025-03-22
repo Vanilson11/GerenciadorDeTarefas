@@ -1,4 +1,4 @@
-﻿namespace GerenciadorDeTarefas.Communicarion.Enums;
+﻿namespace GerenciadorDeTarefas.Communication.Enums;
 public enum PriorityType
 {
     Alta = 0,

@@ -1,4 +1,5 @@
-﻿using GerenciadorDeTarefas.Communicarion.Responses;
+﻿using GerenciadorDeTarefas.Communication.Enums;
+using GerenciadorDeTarefas.Communication.Responses;
 
 namespace GerenciadorDeTarefas.Application.UsesCases.Tasks.GetAll;
 public class GetAllTasksUseCase
@@ -13,15 +14,15 @@ public class GetAllTasksUseCase
                 {
                     Id = 1,
                     Name = "Test",
-                    Priority = Communicarion.Enums.PriorityType.Alta,
-                    Status = Communicarion.Enums.StatusType.Andamento,
+                    Priority = PriorityType.Alta,
+                    Status = StatusType.Andamento,
                 },
                 new ResponseShortTaskJson
                 {
                     Id = 2,
                     Name = "Test2",
-                    Priority = Communicarion.Enums.PriorityType.Média,
-                    Status = Communicarion.Enums.StatusType.Concluido,
+                    Priority = PriorityType.Média,
+                    Status = StatusType.Concluido,
                 }
             }
         };

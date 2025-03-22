@@ -1,4 +1,4 @@
-﻿using GerenciadorDeTarefas.Communicarion.Requests;
+﻿using GerenciadorDeTarefas.Communication.Requests;
 
 namespace GerenciadorDeTarefas.Application.UsesCases.Tasks.Update;
 public class UpdateTaskUseCase

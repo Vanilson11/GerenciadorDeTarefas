@@ -1,4 +1,5 @@
-﻿using GerenciadorDeTarefas.Communicarion.Responses;
+﻿using GerenciadorDeTarefas.Communication.Enums;
+using GerenciadorDeTarefas.Communication.Responses;
 
 namespace GerenciadorDeTarefas.Application.UsesCases.Tasks.GetById;
 public class GetTaskByIdUseCase
@@ -10,9 +11,9 @@ public class GetTaskByIdUseCase
             Id = id,
             Name = "Estudar C#",
             Descricao = "Estudar o módulo 4 do curso de C# da Rocketseat",
-            Priority = Communicarion.Enums.PriorityType.Média,
+            Priority = PriorityType.Média,
             DateLimit = new DateTime(year: 2025, month: 3, day: 30),
-            Status = Communicarion.Enums.StatusType.Andamento
+            Status = StatusType.Andamento
         };
     }
 }

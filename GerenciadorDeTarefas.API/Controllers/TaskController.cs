@@ -3,8 +3,8 @@ using GerenciadorDeTarefas.Application.UsesCases.Tasks.GetAll;
 using GerenciadorDeTarefas.Application.UsesCases.Tasks.GetById;
 using GerenciadorDeTarefas.Application.UsesCases.Tasks.Register;
 using GerenciadorDeTarefas.Application.UsesCases.Tasks.Update;
-using GerenciadorDeTarefas.Communicarion.Requests;
-using GerenciadorDeTarefas.Communicarion.Responses;
+using GerenciadorDeTarefas.Communication.Requests;
+using GerenciadorDeTarefas.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GerenciadorDeTarefas.API.Controllers;

@@ -1,6 +1,6 @@
-﻿using GerenciadorDeTarefas.Communicarion.Enums;
+﻿using GerenciadorDeTarefas.Communication.Enums;
 
-namespace GerenciadorDeTarefas.Communicarion.Responses;
+namespace GerenciadorDeTarefas.Communication.Responses;
 public class ResponseShortTaskJson
 {
     public int Id { get; set; }

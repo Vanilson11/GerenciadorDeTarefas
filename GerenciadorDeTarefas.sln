@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35728.132 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.API", "GerenciadorDeTarefas.API\GerenciadorDeTarefas.API.csproj", "{4A2617CE-1E91-4F64-818A-08DA2CBD75FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Communicarion", "GerenciadorDeTarefas.Communicarion\GerenciadorDeTarefas.Communicarion.csproj", "{1AFBB397-2CC3-4016-B96A-9A7D99D3E7FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Communication", "GerenciadorDeTarefas.Communicarion\GerenciadorDeTarefas.Communication.csproj", "{1AFBB397-2CC3-4016-B96A-9A7D99D3E7FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeTarefas.Application", "GerenciadorDeTarefas.Application\GerenciadorDeTarefas.Application.csproj", "{7B49BE49-08FD-4935-8F0C-8FB784042F50}"
 EndProject

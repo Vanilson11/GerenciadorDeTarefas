@@ -1,5 +1,5 @@
-﻿using GerenciadorDeTarefas.Communicarion.Requests;
-using GerenciadorDeTarefas.Communicarion.Responses;
+﻿using GerenciadorDeTarefas.Communication.Requests;
+using GerenciadorDeTarefas.Communication.Responses;
 
 namespace GerenciadorDeTarefas.Application.UsesCases.Tasks.Register;
 public class RegisterTaskUseCase

@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GerenciadorDeTarefas.Application\GerenciadorDeTarefas.Application.csproj" />
-    <ProjectReference Include="..\GerenciadorDeTarefas.Communicarion\GerenciadorDeTarefas.Communicarion.csproj" />
+    <ProjectReference Include="..\GerenciadorDeTarefas.Communicarion\GerenciadorDeTarefas.Communication.csproj" />
   </ItemGroup>
 
 </Project>
